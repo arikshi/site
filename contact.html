@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- The above 2 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="swm">
+
+    <!-- Note there is no responsive meta tag here -->
+
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Red Rose</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./css/non-responsive.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="./css/stylish-portfolio.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="./css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <link href="./css/main.css" rel="stylesheet" type="text/css">
+    <link href="./css/contact.css" rel="stylesheet" type="text/css">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="./js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="./js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="./js/html5shiv.min.js"></script>
+    <script src="./js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<!-- Fixed navbar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <!-- The mobile navbar-toggle button can be safely removed since you do not need it in a non-responsive implementation -->
+            <a class="navbar-brand" href="/index.html">Red Rose</a>
+        </div>
+        <!-- Note that the .navbar-collapse and .collapse classes have been removed from the #navbar -->
+        <div id="navbar">
+            <ul class="nav navbar-nav">
+                <li class=""><a href="/index.html">首页</a></li>
+                <li class=""><a href="/price.html">套系价格</a></li>
+                <li class=""><a href="/about.html">关于我们</a></li>
+                <li class=""><a href="/works.html">婚照作品</a></li>
+                <li class=""><a href="/wedding.html">婚礼当天</a></li>
+                <li class=""><a href="/video.html">录影视频</a></li>
+                <li class="active"><a href="/contact.html">联系我们</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</nav>
+
+
+<div class="container">
+
+    <div class="contact-main">
+        <h2 class="ui-title sans-light">感谢您选择我们！</h2>
+        <p class="ui-text sans-light">
+            
+                我们专业的服务将让您无后顾之忧，拍到您满意为止。<br/>
+            
+                欢迎您关注我们微信公众帐号，了解我们的最新动态，并提供宝贵建议。<br/>
+            
+        </p>
+        <img src="imgs/logo/erweima.jpg" class="img-thumbnail">
+        <p class="ui-text sans-light">微信公众号</p>
+        <ul class="ui-col3 detail">
+            <li class="ui-col"><a href="http://wpa.qq.com/msgrd?v=3&uin=708833248&site=redrose.com&menu=yes"><i class="fa fa-qq fa-fw fa-3x"></i><span class="text sans-light">&nbsp;708833248&nbsp;</span></a></li>
+            <li class="ui-col"><a href="tel:0755-86223388"><i class="fa fa-phone fa-fw fa-3x"></i><span href="tel:0755-86223388" class="text sans-light">0755-86223388</span></a></li>
+            <li class="ui-col odd">
+                <script>
+                    (function(){
+                        var a = 'support' + String.fromCharCode(64) + 'redrose.com',
+                                b = '<a href="mai' + 'lto:' + a + '"><i class="fa fa-mail-forward fa-fw fa-3x"></i><span class="text sans-light">' + a + '</span></a>';
+                        document.write(b);
+                    })();
+                </script></li>
+        </ul>
+
+    </div>
+
+    <!-- Map -->
+    <div id="map" style="width:100%;"></div>
+</div> <!-- /container -->
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 text-center" id="shares">
+                <ul class="list-unstyled">
+                    <li><i class="fa fa-phone fa-fw"></i>0755-86223388</li>
+                    <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="#">708833248@qq.com</a></li>
+                </ul>
+
+                <ul class="list-inline">
+                    <li>
+                        <a href="#"><i class="fa fa-weibo fa-fw fa-3x"></i></a>
+                    </li>
+                    <li>
+                        <a href="http://wpa.qq.com/msgrd?v=3&uin=708833248&site=redrose.com&menu=yes"><i class="fa fa-qq fa-fw fa-3x"></i></a>
+                    </li>
+                    <li>
+                        <a href="weixin://profile/gh_1f6f6ea9f7b3" class="js-toggle js-wxshare" data-id="wxqr" data-selector="#qrbox"><i class="fa fa-weixin fa-fw fa-3x"></i></a>
+                    </li>
+                </ul>
+                <hr class="small">
+                <p class="text-muted">Copyright  &copy; 1998 - 2015 Loulan. All Rights Reserved.</p>
+                <p>楼兰公司 版权所有</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div id="qrbox" class="xbox hide">
+    <div class="xbox-mask js-toggle" data-selector="#qrbox"></div>
+    <div class="xbox-cnt">
+        <span class="xbox-close js-toggle" data-selector="#qrbox">×</span>
+        <div class="xbox-body">
+            <div id="wxqr" class="qrcode"></div>
+            <div class="text">请使用微信扫一扫分享</div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="./js/jquery.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="./js/ie10-viewport-bug-workaround.js"></script>
+
+<script src="http://api.map.baidu.com/api?v=1.5&ak=9qyCul8XTLsLdoTQG6EGTo7T" type="text/javascript"></script>
+<script type="text/javascript">
+    function initialize() {
+        //var mp = new BMap.Map("map",{minZoom:8,maxZoom:16});
+        var x = 114.03693;
+        var y = 22.616562;
+        x = 114.03693;
+        y = 22.616562;
+        var mp = new BMap.Map("map");
+        mp.centerAndZoom(new BMap.Point(x, y), 15);
+
+        var pt = new BMap.Point(x, y);
+        var myIcon = new BMap.Icon("http://developer.baidu.com/map/jsdemo/img/fox.gif", new BMap.Size(300,157));
+        var marker2 = new BMap.Marker(pt,{icon:myIcon});  // 创建标注
+        mp.addOverlay(marker2);              // 将标注添加到地图中
+
+        mp.addControl(new BMap.MapTypeControl());
+        mp.enableScrollWheelZoom(true);
+    }
+
+    function loadScript() {
+        var script = document.createElement("script");
+        script.src = "http://api.map.baidu.com/api?v=1.5&ak=9qyCul8XTLsLdoTQG6EGTo7T&callback=initialize";
+        //此为v1.5版本的引用方式
+        // http://api.map.baidu.com/api?v=1.5&ak=您的密钥&callback=initialize"; //此为v1.4版本及以前版本的引用方式
+        document.body.appendChild(script);
+    }
+
+    window.onload = loadScript;
+</script>
+
+<!-- Custom Theme JavaScript -->
+<script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+</script>
+</body>
+</html>
